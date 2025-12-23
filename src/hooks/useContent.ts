@@ -90,7 +90,8 @@ export interface SiteContent {
 
 const defaultContent: SiteContent = {
   branding: {
-    logoUrl: 'https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/euWA4yNNSFdmATdtUmlC/media/68db6847cbc8a832996f7e56.png',
+    logoUrl:
+      'https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/euWA4yNNSFdmATdtUmlC/media/68db6847cbc8a832996f7e56.png',
     companyName: 'AI Studio',
   },
   navigation: {
@@ -100,15 +101,15 @@ const defaultContent: SiteContent = {
       { label: 'ROI Calculator', href: '#roi-calculator' },
       { label: 'Book A Discovery Call', href: '#booking' },
     ],
-    ctaText: 'Get Started',
+    ctaText: 'Book a Call',
   },
   hero: {
-    badge: '🔥 AI-Powered Business Solutions',
+    badge: '🔥 Try our live demo below',
     title: 'Scale Smarter With',
     titleHighlight: 'AI',
-    subtitle: 'INSTANTLY save time & Make more Money!',
+    subtitle: 'INSTANTLY save time & make more money.',
     ctaText: 'FREE AI CONSULTATION',
-    secondaryCtaText: 'Watch Demo',
+    secondaryCtaText: 'See Features',
   },
   liveDemo: {
     title: '🔥 Try Our Live Demo 🔥',
@@ -117,8 +118,10 @@ const defaultContent: SiteContent = {
   about: {
     tagline: 'Who are we?',
     title: 'Your Partner in Innovation',
-    description: 'We help businesses implement the power of AI... So you can save time, boost profits, and stay ahead of the competition.',
-    additionalText: 'While other companies fall behind, you\'ll be the one leading with smarter, faster systems powered by AI.',
+    description:
+      "We help businesses implement the power of AI so you can save time, boost profits, and stay ahead of the competition.",
+    additionalText:
+      "While other companies fall behind, you'll be the one leading with smarter, faster systems powered by AI.",
   },
   features: {
     sectionTitle: '👇 FEATURES 👇',
@@ -136,35 +139,40 @@ const defaultContent: SiteContent = {
           'The voice, language, tone, and capabilities are tailored to your liking',
         ],
         icon: 'phone',
-        imageUrl: 'https://assets.cdn.filesafe.space/euWA4yNNSFdmATdtUmlC/media/d1f77a71-a2aa-49fe-9480-a599a5e1b7d7.png',
+        imageUrl:
+          'https://assets.cdn.filesafe.space/euWA4yNNSFdmATdtUmlC/media/d1f77a71-a2aa-49fe-9480-a599a5e1b7d7.png',
       },
       {
         id: '2',
         title: 'AI Sales Rep',
         subtitle: 'Your personal AI sales rep',
-        description: 'that makes outbound calls/texts to new leads, old leads, or unresponsive inquiries.',
+        description:
+          'that makes outbound calls/texts to new leads, old leads, or unresponsive inquiries.',
         bulletPoints: [
           'Automatically calls or texts new leads within seconds of inquiry',
           'Re-ignites aged or cold leads to generate new revenue 🔥',
           'Uses natural, human-like voice conversations to qualify and book appointments',
         ],
         icon: 'user',
-        imageUrl: 'https://assets.cdn.filesafe.space/euWA4yNNSFdmATdtUmlC/media/88b04395-a82e-4790-8771-eecc470937d6.png',
+        imageUrl:
+          'https://assets.cdn.filesafe.space/euWA4yNNSFdmATdtUmlC/media/88b04395-a82e-4790-8771-eecc470937d6.png',
       },
       {
         id: '3',
         title: 'AI Site Widget',
         subtitle: 'An interactive voice or chat agent',
-        description: 'designed to instantly engage visitors, answer questions, and book appointments in real time.',
+        description:
+          'designed to instantly engage visitors, answer questions, and book appointments in real time.',
         bulletPoints: [
-          'Fully custom-built to match your brand\'s tone, colors, and personality',
+          "Fully custom-built to match your brand's tone, colors, and personality",
           'Greets visitors naturally and keeps them engaged longer',
           'Answers FAQs, explains services, and captures lead info',
           'Books appointments automatically',
           'Works seamlessly as a chat or voice interface',
         ],
         icon: 'messageSquare',
-        imageUrl: 'https://assets.cdn.filesafe.space/euWA4yNNSFdmATdtUmlC/media/36d96102-1261-4b11-b681-d43d7a827564.png',
+        imageUrl:
+          'https://assets.cdn.filesafe.space/euWA4yNNSFdmATdtUmlC/media/36d96102-1261-4b11-b681-d43d7a827564.png',
       },
       {
         id: '4',
@@ -172,60 +180,104 @@ const defaultContent: SiteContent = {
         subtitle: 'Your reputation assistant',
         description: 'that responds to every review. Improving SEO and saving hours every week.',
         bulletPoints: [
-          'Responds instantly to every Google review in your brand\'s tone',
+          "Responds instantly to every Google review in your brand's tone",
           'Boosts Google ranking through consistent engagement',
           'Logs all reviews and responses in your CRM dashboard',
           'Implement a reviews widget into your website with an AI summary included',
         ],
         icon: 'star',
-        imageUrl: 'https://assets.cdn.filesafe.space/euWA4yNNSFdmATdtUmlC/media/06599383-11d6-4c14-ac26-03259c2fd0a2.png',
+        imageUrl:
+          'https://assets.cdn.filesafe.space/euWA4yNNSFdmATdtUmlC/media/06599383-11d6-4c14-ac26-03259c2fd0a2.png',
       },
     ],
   },
   roiCalculator: {
     title: 'ROI Calculator',
-    subtitle: 'See how much money you\'re leaving on the table',
-    missedCallsLabel: 'Missed Calls Per Month',
+    subtitle: 'CALCULATE YOUR LOST REVENUE',
+    missedCallsLabel: 'Missed Calls Per Week',
     avgSaleLabel: 'Average Sale Value ($)',
     closeRateLabel: 'Close Rate (%)',
-    resultPrefix: 'You\'re losing approximately',
-    resultSuffix: 'per year in missed opportunities',
+    resultPrefix: 'Yearly Lost Profit',
+    resultSuffix: '(estimated)',
   },
   howItWorks: {
-    sectionTitle: 'How It Works',
+    sectionTitle: 'How it works',
     steps: [
-      { id: '1', step: 1, title: 'Book a Call', description: 'Schedule a free AI consultation to discuss your business needs.' },
-      { id: '2', step: 2, title: 'Strategy Session', description: 'We analyze your current setup and identify AI opportunities.' },
-      { id: '3', step: 3, title: 'Custom Build', description: 'Our team builds your personalized AI solutions.' },
-      { id: '4', step: 4, title: 'Integration', description: 'Seamless integration with your existing systems and CRM.' },
-      { id: '5', step: 5, title: 'Training', description: 'We train you and your team on using the new AI tools.' },
-      { id: '6', step: 6, title: 'Launch & Support', description: 'Go live with ongoing support and optimization.' },
+      {
+        id: '1',
+        step: 1,
+        title: 'Schedule a Free AI Consultation',
+        description: 'Schedule a free AI consultation to discuss your business needs.',
+      },
+      {
+        id: '2',
+        step: 2,
+        title: 'We Map Your Opportunities',
+        description: "On the call, we’ll explore where AI can make the biggest impact in your business.",
+      },
+      {
+        id: '3',
+        step: 3,
+        title: 'We Build Your System',
+        description: 'Our team custom-builds the AI solution for your workflows.',
+      },
+      {
+        id: '4',
+        step: 4,
+        title: 'Integrations + Testing',
+        description: 'We integrate with your tools and run end-to-end testing.',
+      },
+      {
+        id: '5',
+        step: 5,
+        title: 'Launch',
+        description: 'We launch your AI and monitor performance closely.',
+      },
+      {
+        id: '6',
+        step: 6,
+        title: 'Monthly Check-ins',
+        description: 'Ongoing optimization to keep improving results.',
+      },
     ],
   },
   booking: {
     sectionTitle: 'SCHEDULE YOUR FREE AI CONSULTATION',
     consultationTitle: 'AI Consultation',
     duration: '30 Mins',
-    description: 'During the call, we\'ll explore how AI can be integrated into your business operations to help you save time, increase conversions, and streamline communication.',
+    description:
+      "During the call, we’ll explore how AI can be integrated into your business operations to help you save time, increase conversions, and streamline communication.",
     meetingType: '💻 Meeting Type: Google Meet',
-    imageUrl: 'https://storage.googleapis.com/msgsndr/euWA4yNNSFdmATdtUmlC/media/68f300536752d45ab53def05.png',
+    imageUrl:
+      'https://storage.googleapis.com/msgsndr/euWA4yNNSFdmATdtUmlC/media/68f300536752d45ab53def05.png',
   },
   faq: {
     sectionTitle: 'Frequently Asked Questions',
     items: [
-      { id: '1', question: 'How human-like is the AI voice?', answer: 'Our AI uses advanced voice synthesis technology that sounds remarkably natural. Most callers can\'t tell they\'re speaking with an AI. We continuously improve our voice models to ensure the most natural conversation experience.' },
-      { id: '2', question: 'Does the AI support multiple languages?', answer: 'Yes! Our AI is bi-lingual and supports multiple languages including English, Spanish, French, and more. You can configure the language preferences based on your customer base.' },
-      { id: '3', question: 'How does it integrate with my existing CRM?', answer: 'We integrate seamlessly with popular CRM systems including Salesforce, HubSpot, GoHighLevel, and many others. All call data, appointments, and lead information are automatically logged into your existing systems.' },
-      { id: '4', question: 'What happens if the AI can\'t handle a request?', answer: 'The AI is trained to recognize when a request is beyond its capabilities. In these cases, it can seamlessly transfer the call to a human representative or schedule a callback at a time when a team member is available.' },
-      { id: '5', question: 'How quickly can I get started?', answer: 'Most businesses are up and running within 1-2 weeks. This includes initial consultation, customization, integration, and training. We work on your timeline to ensure a smooth implementation.' },
+      {
+        id: '1',
+        question: 'How human-like is the AI voice?',
+        answer:
+          "Our AI uses advanced voice synthesis technology that sounds remarkably natural. Most callers can't tell they're speaking with an AI.",
+      },
+      {
+        id: '2',
+        question: 'How quickly can I get started?',
+        answer: 'Most businesses are up and running within 1-2 weeks, including setup, customization, and testing.',
+      },
+      {
+        id: '3',
+        question: 'Does it integrate with my CRM?',
+        answer: 'Yes — we can integrate with popular CRMs and booking tools so everything is logged automatically.',
+      },
     ],
   },
   footer: {
-    text: '© 2024 AI Studio. All rights reserved.',
+    text: '© 2025 AI Studio. All rights reserved.',
     links: [
-      { label: 'Privacy Policy', href: '#' },
-      { label: 'Terms of Service', href: '#' },
-      { label: 'Contact', href: '#booking' },
+      { label: 'Privacy', href: '#' },
+      { label: 'Terms', href: '#' },
+      { label: 'Book', href: '#booking' },
     ],
   },
   colors: {
@@ -234,6 +286,13 @@ const defaultContent: SiteContent = {
 };
 
 const STORAGE_KEY = 'site-content-v2';
+
+function applyTheme(colors: SiteContent['colors']) {
+  // Keep it simple: expose a single "brand hue" that drives the primary color.
+  const hue = Number.isFinite(colors.primaryHue) ? colors.primaryHue : defaultContent.colors.primaryHue;
+  document.documentElement.style.setProperty('--primary', `${hue} 90% 55%`);
+  document.documentElement.style.setProperty('--ring', `${hue} 90% 55%`);
+}
 
 export function useContent() {
   const [content, setContent] = useState<SiteContent>(defaultContent);
@@ -244,7 +303,6 @@ export function useContent() {
     if (stored) {
       try {
         const parsed = JSON.parse(stored);
-        // Merge with defaults to handle any new fields
         setContent({ ...defaultContent, ...parsed });
       } catch {
         setContent(defaultContent);
@@ -253,14 +311,20 @@ export function useContent() {
     setIsLoaded(true);
   }, []);
 
+  useEffect(() => {
+    applyTheme(content.colors);
+  }, [content.colors]);
+
   const updateContent = (newContent: SiteContent) => {
     setContent(newContent);
     localStorage.setItem(STORAGE_KEY, JSON.stringify(newContent));
+    applyTheme(newContent.colors);
   };
 
   const resetContent = () => {
     setContent(defaultContent);
     localStorage.removeItem(STORAGE_KEY);
+    applyTheme(defaultContent.colors);
   };
 
   return { content, updateContent, resetContent, isLoaded, defaultContent };
